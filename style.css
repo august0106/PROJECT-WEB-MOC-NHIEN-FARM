@@ -1,0 +1,211 @@
+body{
+    width: 99%;
+   
+}
+header, main, footer{
+    display: flex;
+}
+header{
+    display: flex;
+    background-color: rgb(226, 235, 232);
+  
+}
+#header-logo{
+   width: 20%;
+        
+}
+header div img{
+    width: 98%;
+    margin: 3%;
+}
+
+.header-action{
+   width: 80%;
+   padding: 2%;
+   color: darkgreen;
+}
+
+#header-contact{
+
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    font-size: 150%;
+    padding: 0% 0%;
+
+}
+
+.form-contact{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    font-size: 150%;
+}
+.adress{
+    color: rgb(13, 134, 60);
+}
+.hotline{
+    color: rgb(20, 65, 16);
+}
+.fanpage{
+    color: blue;
+}
+.form-contact a{
+    text-decoration: none;
+}
+#header-menu1{
+    margin: 3%;
+    border: 1px solid rgb(23, 8, 110);
+    background-color: aqua;
+    
+}
+#header-menu1 ul{
+    list-style-type: none;
+    color: darkblue;
+    
+}
+#header-menu1 a{
+    text-decoration: none;
+}
+.list2{
+    display: none;
+}
+#header-menu1:hover .list2{
+    display: block;
+}
+#header-find{
+    border: 1px solid rgb(21, 9, 85);
+    background-color: aqua;
+}
+#header-order{
+    border: 1px solid rgb(16, 5, 56);
+    background-color: aqua;
+    display: block;
+}
+#header-cart{
+    border: 1px solid rgb(8, 5, 46);
+    background-color: aqua;
+    display: block;
+    max-height: max-content;
+}
+main{
+    background-color: chartreuse;
+    flex-direction: column;
+}
+.banner{
+   background-color: rgb(250, 248, 244);
+
+}
+main div img{
+    width: 100%;
+    height: 10%;
+    justify-content: center;
+}
+.section{
+    background-color: rgb(240, 235, 233);
+    border: 1px solid orange;
+   
+}
+.section h1{
+    outline-style: double;
+    background-color: darkkhaki;
+}
+.product{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    margin: auto;
+}
+.product-item{
+    width: calc((100% / 5) - (5px * 2));
+    height: 300px;
+    background-color: aqua;
+    margin: 10px 5px;
+    text-align: center;
+    font-size: 150%;
+    line-height: 50%;
+
+}
+.product-item img{
+    width: 98%;
+    height: 70%;
+   margin-bottom: 5%;
+}
+.product-item a{
+    text-decoration: none;
+    color: blue;
+
+}
+.product-item a:hover{
+    color: rgb(219, 80, 99);
+
+}
+
+.article{
+    background-color: rgb(239, 244, 247);
+  
+}
+.article h1{
+    text-align: center; 
+    color: rgb(8, 34, 22);
+    outline-style: double;
+    background-color: rgb(231, 229, 95);
+    
+
+}
+.article1{
+    width: 30%;
+    border: 1px solid orange;
+    margin: 0.5%;
+    padding: 1%;
+    text-align: justify;
+    float: left;
+}
+.article1 a{
+    
+    text-decoration: none;
+
+}
+.article2 img{
+    width: 100%;
+}
+.article2{
+    width: 30%;
+    border: 1px solid rgb(68, 199, 51);
+    margin: 0.5%;
+    padding: 1%;
+    text-align: justify;
+    float: left;
+}
+.article2 a{
+    
+    text-decoration: none;
+    color: brown;
+
+}
+.article2 img{
+    width: 100%;
+}
+.article3{
+    width: 30%;
+    border: 1px solid rgb(32, 40, 143);
+    margin: 0.5%;
+    padding: 1%;
+    text-align: justify;
+    float: left;
+}
+.article3 a{
+    
+    text-decoration: none;
+    color: darkgreen;
+}
+.article3 img{
+    width: 100%;
+}
+footer{
+    background-color: rgb(204, 235, 134);
+    justify-content: right;
+    padding-right: 2%;
+    
+}
