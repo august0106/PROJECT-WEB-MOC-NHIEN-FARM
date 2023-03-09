@@ -32,98 +32,128 @@
       <div class="form-contact">
         <div id="header-menu1">
           <a href="#">Menu</a>
-          <ul class="list1">
-            <li class="list2"> <a href="#">Rau-Củ-Quả</a></li>
-            <li class="list2"> <a href="#">Thực phẩm hữu cơ</a></li>
-            <li class="list2"> <a href="#">Đặc sản vùng miền</a></li>
+          <ul>
+            <li class="list1"> <a href="#">Rau-Củ-Quả</a>
+              <ul>
+                <li class="list2"> <a href="#"> Rau</a></li>
+                <li class="list2"> <a href="#"> Củ</a></li>
+                <li class="list2"> <a href="#"> Quả</a></li>
+              </ul>
+            </li>
+            <li class="list1"> <a href="#">Thực phẩm hữu cơ</a>
+              <ul>
+                <li class="list2"> <a href="#"> Mật mía</a></li>
+                <li class="list2"> <a href="#"> Đường phèn vụn</a></li>
+                <li class="list2"> <a href="#"> Nước mắm cá cơm</a></li>
+              </ul>
+            </li>
+            <li class="list1"> <a href="#">Đặc sản vùng miền</a>
+              <ul>
+                <li class="list2"> <a href="#"> Bánh cốm Hà Nội</a></li>
+                <li class="list2"> <a href="#"> Nem chua Thanh Hóa</a></li>
+                <li class="list2"> <a href="#"> Bánh phồng tôm Năm Căn</a></li>
+              </ul></li>
           </ul>
 
         </div>
 
-        <div id="header-find">
-          <p> Bạn muốn tìm kiếm thực phẩm gì?</p>
-        </div>
-        <div id="header-order">
-          <p> <a href="#">Đặt hàng </a></p>
-        </div>
-        <div id="header-cart">
-          <p><a href="#">Giỏ hàng</a></p>
-        </div>
+        <form name="find_form" action="" method="post" target="_blank">
+          <input type="text" name="find" placeholder="Nhập tên thực phẩm" />
+          <button type="submit" name="submit">Tìm kiếm</button>
+
+          <div id="header-order">
+            <button type="submit" name="order">Đặt hàng</button>
+          </div>
+          <div id="header-cart">
+            <button type="submit" name="cart">Giỏ hàng</button>
+          </div>
+        </form>
       </div>
     </div>
 
   </header>
   <main>
-    <div class="banner">
+    <!--  <div class="banner">
       <img src="img/ANH BIA FP MOC NHIEN.png" alt="moc nhien farm">
     </div>
-
+ -->
     <div class="section">
       <h1 style="text-align: center; color: darkblue;"> DANH SÁCH THỰC PHẨM</h1>
       <div class="product">
         <div class="product-item">
-          <img src="img/354x250sua-dau-nanh-1554869929.jpg" alt="hat dau nanh">
+          <img src="img/354x250sua-dau-nanh-1554869929.jpg" alt="hat dau nanh" title="hat dau nanh">
           <a href="#">Hạt Đậu Nành</a>
           <p>100.000đ/kg</p>
+          <button type="button">Thêm vào Giỏ hàng</button>
 
         </div>
         <div class="product-item">
-          <img src="img/bot-cu-mai-hoai-son-nguyen-chat-2.jpg" alt="bot cu mai">
+          <img src="img/bot-cu-mai-hoai-son-nguyen-chat-2.jpg" alt="bot cu mai" title="bot cu mai">
           <a href="#">Bột củ mài</a>
           <p>80.000đ/kg</p>
+          <button type="button">Thêm vào Giỏ hàng</button>
+
         </div>
         <div class="product-item">
-          <img src="img/mat-mia-1psd.jpg" alt="mat mia">
+          <img src="img/mat-mia-1psd.jpg" alt="mat mia" title="mat mia">
           <a href="#">Mật mía</a>
           <p>60.000/l</p>
+          <button type="button">Thêm vào Giỏ hàng</button>
 
 
         </div>
         <div class="product-item">
-          <img src="img/cach-lam-nuoc-mam-ca-com.jpg" alt="Nuoc mam">
+          <img src="img/cach-lam-nuoc-mam-ca-com.jpg" alt="Nuoc mam" title="nuoc mam">
           <a href="#">Nước mắm cá cơm</a>
           <p>60.000đ/l</p>
+          <button type="button">Thêm vào Giỏ hàng</button>
 
 
         </div>
         <div class="product-item">
-          <img src="img/64faef728818eb84dec9f552197b774c.jpg" alt="Duong phen vun">
+          <img src="img/64faef728818eb84dec9f552197b774c.jpg" alt="Duong phen vun" title="duong phen vun">
           <a href="#">Đường phèn vụn</a>
           <p>75.000/kg</p>
+          <button type="button">Thêm vào Giỏ hàng</button>
 
 
         </div>
         <div class="product-item">
-          <img src="img/51964383_304869317053342_3071937103190294528_n.png" alt="Banh com">
+          <img src="img/51964383_304869317053342_3071937103190294528_n.png" alt="Banh com" title="banh com">
           <a href="#">Bánh cốm</a>
           <p>15.000đ/cai</p>
+          <button type="button">Thêm vào Giỏ hàng</button>
 
 
         </div>
 
         <div class="product-item">
-          <img src="img/duong-cat-vang-bien-hoa-scaled.jpg" alt="Duong cat">
+          <img src="img/duong-cat-vang-bien-hoa-scaled.jpg" alt="Duong cat" title="duong cat">
           <a href="#">Đường cát hoa mơ</a>
           <p>75.000đ/kg</p>
+          <button type="button">Thêm vào Giỏ hàng</button>
 
 
         </div>
         <div class="product-item">
-          <img src="img/dau tuong den.jpg" alt="Dau tuong den">
+          <img src="img/dau tuong den.jpg" alt="Dau tuong den" title="dau tuong den">
           <a href="#">Dầu tương đen</a>
           <p>50.000đ/l</p>
+          <button type="button">Thêm vào Giỏ hàng</button>
 
         </div>
         <div class="product-item">
-          <img src="img/hat nem.jpg" alt="Hat nem">
+          <img src="img/hat nem.jpg" alt="Hat nem" title="hat nem">
           <a href="#">Hạt nêm</a>
           <p>50.000đ/kg</p>
+          <button type="button">Thêm vào Giỏ hàng</button>
 
         </div>
         <div class="product-item">
-          <img src="img/Bột-nghệ.jpg" alt="bot nghe">
+          <img src="img/Bột-nghệ.jpg" alt="bot nghe" title="bot nghe">
           <a href="#">Bột nghệ</a>
           <p>80.000đ/kg</p>
+          <button type="button">Thêm vào Giỏ hàng</button>
 
         </div>
       </div>
@@ -165,7 +195,7 @@
     </div>
   </main>
   <Footer>
-   <p>&copy; Coppyrigh 2023 Mộc Nhiên Farm.</p>
+    <p>&copy; Copyright 2023 Mộc Nhiên Farm.</p>
   </Footer>
 </body>
 
